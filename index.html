@@ -133,7 +133,10 @@
                 }
             }
             if (e.keyCode == 80) {//P
-                console.log(standardlist);
+                for (const key in standardlist) {
+                        console.log(key+':',standardlist[key]);
+
+                }
 
             }
             if (e.keyCode == 83) {//s
